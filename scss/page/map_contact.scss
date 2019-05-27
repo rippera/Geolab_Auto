@@ -1,0 +1,191 @@
+.map_box{
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+}
+.map{
+    width: 100%;
+    height: 100%;
+}
+.contact_wrapper{
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.contact_info-box{
+    background: $Bg_color;
+    padding: 50px;
+}
+.absolute_box{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+
+.contact_info-box{
+    h1{
+        font-size: 50px;
+        font-family: $RobotoConBold;
+        text-transform: uppercase;
+        position: relative;
+        margin-bottom: 100px;
+        &::after{
+            content: '';
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 0;
+            left: 37px;
+            display: block;
+            background: rgba(255,255,255,.5);
+        }
+    }
+}
+.view{
+    font-size: 50px;
+    font-family: $RobotoConBold;
+    text-transform: capitalize;
+    text-align: center;
+}
+.social__wrapper{
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.soc_icons{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+//form
+.form_box{
+    background: $Main_White;
+    height: 100%;
+}
+.form__title{
+    font-size: 50px;
+    font-family: $RobotoConBold;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.form{
+    margin-left: 50px;
+}
+.input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    outline: none;
+    background: #F2F2F2;
+    color: #4D4D4D;
+    font-size: 16px;
+    font-family: $RobotoConLight;
+    border: none;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.txtarea{
+    height: 125px;
+    padding-top: 10px;
+}
+.gender{
+    font-family: $RobotoConLight;
+    font-size: 16px;
+    color: $Main_Black;
+    letter-spacing: 2px;
+    margin-right: 15px;
+}
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 2px solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 2px solid;
+    display: inline-block;
+    vertical-align: middle;
+}
+.chek_box{
+    flex-direction: column;
+    margin-top: 100px;
+}
+.sign{
+   font-family: $RobotoConLight;
+   font-size: 16px;
+   margin-bottom: 15px;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   color: $Main_Black;
+}
+.chek_box-d{
+    align-items: center;
+    margin-bottom: 10px;
+    p{
+        margin-left: 10px;
+        font-family: $RobotoConLight;
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        color: $Main_Black;
+    }
+}
+.send_btn{
+    width: 80px;
+    height: 40px;
+    color: $Main_White;
+    background: $Main_Black;
+    border: none;
+    outline: none;
+    margin-right: 40px;
+    font-family: $RobotoConBold;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.warringOutput{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FF0000;
+    font-size: 11px;
+    font-family: $RobotoThin;
+}
+.name{
+    top: 40px;
+    left: 70px;
+}
+.email{
+    top: 100px;
+    left: 70px;
+}
+.subject{
+    top: 160px;
+    left: 70px;
+}
+.text{
+    top: 305px;
+    left: 70px;
+}
+.form_output{
+    color: #39B54A;
+    font-size: 14px;
+    font-family: $RobotoThin;
+    margin-left: 50px;
+}

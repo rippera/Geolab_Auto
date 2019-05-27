@@ -1,0 +1,59 @@
+.service_section{
+    padding: 30px 0;
+}
+.service__wrapper{
+    h1{
+        font-family: $RobotoConBold;
+        font-size: 50px;
+        color: $Main_Black;
+        letter-spacing: 2px;
+        margin: 70px 0 100px 0;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.service_box{
+    margin-bottom: 130px;
+}
+.card-service__title{
+    font-family: $RobotoConBold;
+    font-size: 50px;
+    color: $Main_Black;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    margin-top: 75px;
+}
+.road{
+    position: absolute;
+    top: 205px;
+    left: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+.bush{
+    width: 1000px;
+    position: absolute;
+    top: -15px;
+    left: 15%;
+    margin-left: -7.5%;
+    img{
+        width: 100%;
+    }
+}
+.bus{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    animation: bus 5s linear infinite;
+}
+@keyframes bus{
+    from{
+        right: -50%;
+    }
+    to{
+        right: 100%;
+    }
+}

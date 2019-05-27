@@ -1,4 +1,11 @@
+// moduls and variables
 @import "modules/variable";
 @import "modules/base";
 @import "partials/fonts";
 @import "partials/reset";
+//page
+@import "page/banner";
+@import "page/service_section";
+@import "page/map_contact";
+@import "page/footer";
+@import "page/responsive";

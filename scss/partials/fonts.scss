@@ -43,3 +43,15 @@
   url('../fonts/robotothin/RobotoThin.ttf') format('truetype'),
   url('../fonts/robotothin/RobotoThin.svg#RobotoThin') format('svg');
 }
+
+// icon fonts
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/icomoon.eot?bej8e5');
+  src:  url('../fonts/icomoon/icomoon.eot?bej8e5#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon/icomoon.ttf?bej8e5') format('truetype'),
+        url('../fonts/icomoon/icomoon.woff?bej8e5') format('woff'),
+        url('../fonts/icomoon/icomoon.svg?bej8e5#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+}

@@ -1,0 +1,62 @@
+@media screen and (max-width:769px){
+    .absolute_box{
+        top: 400px;
+        width: 500px;
+        margin: auto;
+        display: block;
+        left: 115px;
+    }
+    .contact_info-box{
+        h1{
+            display: none;
+        }
+    }
+    .pr_0 {
+        padding-right: 15px;
+    }
+    .pl_0 {
+        padding-left: 15px;
+    }
+    .d_wrap_{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .form_box{
+        background: $Bg_color;
+    }
+    .form{
+        margin: 0 20px;
+    }
+    .radio_box{
+        margin: 0 20px;
+    }
+    .chek_box{
+        margin: 30px;
+    }
+    .float-right{
+        float: unset !important;
+    }
+    .send_btn{
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    .contact_info-box{
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .view{
+        font-size: 30px;
+    }
+    .soc_icons{
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        padding: 4px;
+    }
+    .foot_box{
+        margin-top: 560px;
+    }
+}

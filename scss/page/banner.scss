@@ -1,0 +1,181 @@
+.banner {
+  background-image: url("../img/bg/ff2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.arrows {
+  color: $Arrow_color;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -105px;
+  cursor: pointer;
+}
+
+.left {
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-left: -120px;
+  padding-top: 75px;
+  padding-left: 135px;
+  margin-top: -160px;
+
+  img {
+    width: 50px;
+  }
+}
+
+.right {
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin-right: -120px;
+  padding-top: 75px;
+  padding-left: 20px;
+  margin-top: -160px;
+
+  img {
+    width: 50px;
+  }
+}
+
+.header__block {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_block {
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.logo {
+  width: 265px;
+}
+
+.burger {
+  width: 60px;
+  height: 45px;
+  position: relative;
+  margin: 10px 10px;
+  cursor: pointer;
+  z-index: 23;
+  transition: all .3s linear;
+
+  .line_1 {
+    position: absolute;
+    height: 3px;
+    width: 70%;
+    background: #fff;
+    left: 0;
+    transition: all .3s linear;
+  }
+  .line_2 {
+    top: 10px;
+    width: 55%;
+    position: absolute;
+    background: #ffffff;
+    height: 3px;
+    margin-left: 7px;
+    transition: all .3s linear;
+  }
+  .line_3 {
+    top: 20px;
+    width: 70%;
+    position: absolute;
+    background: #ffffff;
+    height: 3px;
+    transition: all .3s linear;
+  }
+}
+.burger {
+  &.open_burger {
+    .line_1 {
+      transform: rotate(45deg);
+      margin-top: 15px;
+      background: #FF0000;
+    }
+
+    .line_2 {
+      height: 0px;
+    }
+
+    .line_3 {
+      transform: rotate(-45deg);
+      margin-top: -4px;
+      background: #FF0000;
+    }
+  }
+}
+
+.red__logo {
+  width: 290px;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.nav__block {
+  position: fixed;
+  z-index: 20;
+  background: rgba(255, 255, 255, .8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  transform: scale(0);
+  transition: all .3s linear;
+
+  &.open_nav {
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+
+.nav {
+  color: #000000;
+  ;
+  text-align: center;
+}
+
+.nav__ul {
+  margin: auto;
+}
+
+.nav__li {
+  font-family: $RobotoConBold;
+  font-size: 72px;
+  color: $Nav_Color;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.banner__title {
+  position: absolute;
+  right: 40px;
+  bottom: 15px;
+}
+
+.main__title-num {
+  font-family: $RobotoConBold;
+  font-size: 72px;
+  color: $Main_White;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.main__title {
+  font-family: $RobotoLight;
+  font-size: 40px;
+  color: $Main_White;
+  letter-spacing: 2px
+}
