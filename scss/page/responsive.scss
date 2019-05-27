@@ -59,4 +59,50 @@
     .foot_box{
         margin-top: 560px;
     }
+    .card-service__title{
+        top: 40%;
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:576px){
+    .logo{
+        width: 125px;
+    }
+    .red__logo{
+        width: 150px;
+    }
+    .nav__ul{
+        margin-top: 35px;
+    }
+    .nav__li{
+        font-size: 34px;
+    }
+    .main__title-num{
+        font-size: 32px;
+    }
+    .main__title{
+        font-size: 20px;
+    }
+    .banner__title{
+        right: 20px;
+    }
+    .service__wrapper{
+        h1{
+            font-size: 27px;
+            margin: 0px 0 50px 0;
+        }
+    }
+    .service_box{
+        margin-bottom: 30px;
+    }
+    .card-service__title{
+        top: 50%;
+    }
+    .absolute_box {
+        width: 350px;
+        left: 10px;
+    }
+    .foot_box {
+        margin-top: 600px;
+    }
 }
