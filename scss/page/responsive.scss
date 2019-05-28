@@ -142,3 +142,12 @@
         height: 23px;
     }
 }
+@media screen and (max-width:320px){
+    .absolute_box {
+        width: 259px;
+        left: 3px;
+    }
+    .contact_info-box {
+        display: none;
+    }
+}
