@@ -1,3 +1,9 @@
+@media screen and (max-width:1024px){
+    .bush{
+        width: 880px;
+        top: -12px;
+    }
+}
 @media screen and (max-width:769px){
     .absolute_box{
         top: 400px;
@@ -63,6 +69,10 @@
         top: 40%;
         font-size: 35px;
     }
+    .bush {
+        width: 660px;
+        top: 30px;
+    }
 }
 @media screen and (max-width:576px){
     .logo{
@@ -118,6 +128,6 @@
         left: 27%;
     }
     .mountain{
-        width: 413px;
+        height: 23px;
     }
 }
