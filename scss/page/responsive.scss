@@ -73,6 +73,17 @@
         width: 660px;
         top: 30px;
     }
+    .right{
+        width: unset;
+        height: unset;
+        background: transparent;
+        right: 130px;
+    }
+    .left{
+        width: unset;
+        height: unset;
+        background: transparent;
+    }
 }
 @media screen and (max-width:576px){
     .logo{
